@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gadient1">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="371dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text=" Provide your account's email for which you \n want to reset your password"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="227dp"
+        android:layout_height="78dp"
+
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="55dp"
+        android:text="FORGOT PASSWORD"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_200px_lock_font_awesome_svg" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="366dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#E3C000"
+        android:text="NEXT"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="316dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:background="#9E9797"
+        android:backgroundTint="#D8D3D3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/layer_x0020_1"
+        tools:layout_editor_absoluteX="19dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

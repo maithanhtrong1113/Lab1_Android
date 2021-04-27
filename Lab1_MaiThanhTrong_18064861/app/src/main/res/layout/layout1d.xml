@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#CCEFA3"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="44dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When you agree to terms and conditions"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="656dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="#BAB8B8"
+            android:backgroundTint="#EFEEEE"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="   Phone"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:background="#BAB8B8"
+            android:backgroundTint="#EFEEEE"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="   Birthday"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="19dp"
+            android:background="#BAB8B8"
+            android:backgroundTint="#EFEEEE"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="   Password"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="44dp"
+            android:text="LOGIN"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="#BAB8B8"
+            android:backgroundTint="#EFEDED"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="   Name"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3"
+            app:srcCompat="@drawable/eye_1"
+            tools:layout_editor_absoluteX="336dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:text="When you agree to terms and conditions"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="978dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="378dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="25dp"
+            android:background="#BAB8B8"
+            android:backgroundTint="#EFEEEE"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="   Email"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#E53935"
+            android:text="LOGIN"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="44dp"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
